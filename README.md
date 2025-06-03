@@ -24,5 +24,5 @@ ATSC PSIP (Program and System Information Protocol) table generator for digital 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/epg-psip-client.git
-cd epg-psip-client
+git clone https://github.com/caritechsolutions/psip_generator_client.git
+cd psip_generator_client

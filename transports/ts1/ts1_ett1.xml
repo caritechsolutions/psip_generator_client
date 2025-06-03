@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8?><tsduck>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3655" ETM_id="0x0001d956">
+    <metadata PID="7681"/>
+    <extended_text_message>
+      <string language="eng" text="A comprehensive compilation of the latest and the most important news stories, updates and developments from the UK and different parts of the world."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3656" ETM_id="0x0001d95a">
+    <metadata PID="7681"/>
+    <extended_text_message>
+      <string language="eng" text=""/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3657" ETM_id="0x0001d95e">
+    <metadata PID="7681"/>
+    <extended_text_message>
+      <string language="eng" text="The latest international news from London and Singapore."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3658" ETM_id="0x0001d962">
+    <metadata PID="7681"/>
+    <extended_text_message>
+      <string language="eng" text="How did Iran become a major adversary to the West? And how significant is their military - and nuclear - capability? Former Senior Officer in the British Military Mikey Kay explains."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3659" ETM_id="0x0001d966">
+    <metadata PID="7681"/>
+    <extended_text_message>
+      <string language="eng" text="The latest international news from London and Singapore."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x365A" ETM_id="0x0001d96a">
+    <metadata PID="7681"/>
+    <extended_text_message>
+      <string language="eng" text="Join our AI Decoded team as we unpack and take a deep dive into the world of artificial intelligence."/>
+    </extended_text_message>
+  </ETT></tsduck>

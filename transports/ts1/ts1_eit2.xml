@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8?><tsduck><ATSC_EIT version="6" source_id="0x0001" protocol_version="0">
+    <metadata PID="7426"/>
+    <event event_id="0x365B" start_time="2025-06-03 03:00:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="Newsday"/>
+      </title_text>
+    </event>
+    <event event_id="0x365C" start_time="2025-06-03 03:30:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="The Media Show"/>
+      </title_text>
+    </event>
+    <event event_id="0x365D" start_time="2025-06-03 04:00:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="BBC News"/>
+      </title_text>
+    </event>
+    <event event_id="0x365E" start_time="2025-06-03 04:30:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="Business Today"/>
+      </title_text>
+    </event>
+    <event event_id="0x365F" start_time="2025-06-03 05:00:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="BBC News"/>
+      </title_text>
+    </event>
+    <event event_id="0x3660" start_time="2025-06-03 05:30:00" ETM_location="0x01" length_in_seconds="1500">
+      <title_text>
+        <string language="eng" text="Business Today"/>
+      </title_text>
+    </event>
+    <event event_id="0x3661" start_time="2025-06-03 05:55:00" ETM_location="0x01" length_in_seconds="300">
+      <title_text>
+        <string language="eng" text="The Travel Show"/>
+      </title_text>
+    </event>
+  </ATSC_EIT></tsduck>

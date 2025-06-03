@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8?><tsduck><ATSC_EIT version="6" source_id="0x0001" protocol_version="0">
+    <metadata PID="7425"/>
+    <event event_id="0x3655" start_time="2025-06-03 00:00:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="BBC News"/>
+      </title_text>
+    </event>
+    <event event_id="0x3656" start_time="2025-06-03 00:30:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="Talking Business"/>
+      </title_text>
+    </event>
+    <event event_id="0x3657" start_time="2025-06-03 01:00:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="Newsday"/>
+      </title_text>
+    </event>
+    <event event_id="0x3658" start_time="2025-06-03 01:30:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="The Security Brief"/>
+      </title_text>
+    </event>
+    <event event_id="0x3659" start_time="2025-06-03 02:00:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="Newsday"/>
+      </title_text>
+    </event>
+    <event event_id="0x365A" start_time="2025-06-03 02:30:00" ETM_location="0x01" length_in_seconds="1800">
+      <title_text>
+        <string language="eng" text="AI Decoded"/>
+      </title_text>
+    </event>
+  </ATSC_EIT></tsduck>

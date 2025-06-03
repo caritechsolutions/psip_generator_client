@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8?><tsduck>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x366A" ETM_id="0x0001d9aa">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="A comprehensive compilation of the latest and the most important news stories, updates and developments from the UK and different parts of the world."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x366B" ETM_id="0x0001d9ae">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="A comprehensive compilation of the latest and the most important news stories, updates and developments from the UK and different parts of the world."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x366C" ETM_id="0x0001d9b2">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="A comprehensive compilation of the latest and the most important news stories, updates and developments from the UK and different parts of the world."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x366D" ETM_id="0x0001d9b6">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="Bringing the latest business news and up to date informed analysis from London and around the world."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x366E" ETM_id="0x0001d9ba">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="A comprehensive compilation of the latest and the most important news stories, updates and developments from the UK and different parts of the world."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x366F" ETM_id="0x0001d9be">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="The team embark on a long journey across the globe in search of new experiences. They travel off the beaten track and uncover the hidden sides of popular tourist destinations."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3670" ETM_id="0x0001d9c2">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="All the big stories, live as they happen, presented by Lucy Hockings."/>
+    </extended_text_message>
+  </ETT>
+  <ETT version="6" protocol_version="0" ETT_table_id_extension="0x3671" ETM_id="0x0001d9c6">
+    <metadata PID="7684"/>
+    <extended_text_message>
+      <string language="eng" text="All the big stories, live as they happen, presented by Lucy Hockings."/>
+    </extended_text_message>
+  </ETT></tsduck>

@@ -1,4 +1,0 @@
-[2025-06-02 21:40:21] ts1 EPG Updated with version 1
-[2025-06-02 21:40:55] ts1 EPG Updated with version 2
-[2025-06-02 21:41:13] ts1 EPG Updated with version 3
-[2025-06-02 21:45:09] ts1 EPG Updated with version 6

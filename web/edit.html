@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit Transport</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Edit Transport</h1>
+    
+    <div class="global-settings">
+        <h2>Global Settings</h2>
+        <input type="text" id="transport_name" placeholder="Transport Name (for filename)">
+        <label for="TVCT_version">TVCT Version:</label>
+        <input type="number" id="TVCT_version"><br>
+
+        <label for="TVCT_current">TVCT Current:</label>
+        <input type="text" id="TVCT_current"><br>
+
+        <label for="transport_stream_id">Transport Stream ID:</label>
+        <input type="text" id="transport_stream_id"><br>
+
+        <label for="protocol_version">Protocol Version:</label>
+        <input type="number" id="protocol_version"><br>
+    </div>
+
+    <div class="channel-settings">
+        <h2>Channels</h2>
+        <ul id="channel-list-items">
+            <!-- Dynamically added channel items -->
+        </ul>
+        <div id="channel-edit" style="display:none; margin-bottom: 20px;">
+            <label for="short_name">Channel Name:</label>
+            <input type="text" id="short_name"><br>
+            
+            <label for="major_channel_number">Major Channel Number:</label>
+            <input type="number" id="major_channel_number"><br>
+
+            <label for="minor_channel_number">Minor Channel Number:</label>
+            <input type="number" id="minor_channel_number"><br>
+
+            <label for="modulation_mode">Modulation Mode:</label>
+            <input type="text" id="modulation_mode"><br>
+
+            <label for="carrier_frequency">Carrier Frequency:</label>
+            <input type="number" id="carrier_frequency"><br>
+
+            <label for="channel_TSID">Channel TSID:</label>
+            <input type="text" id="channel_TSID"><br>
+
+            <label for="program_number">Program Number:</label>
+            <input type="text" id="program_number"><br>
+
+            <label for="ETM_location">ETM Location:</label>
+            <input type="number" id="ETM_location"><br>
+
+            <label for="access_controlled">Access Controlled:</label>
+            <input type="text" id="access_controlled"><br>
+
+            <label for="hidden">Hidden:</label>
+            <input type="text" id="hidden"><br>
+
+            <label for="hide_guide">Hide Guide:</label>
+            <input type="text" id="hide_guide"><br>
+
+            <label for="service_type">Service Type:</label>
+            <input type="text" id="service_type"><br>
+
+            <label for="source_id">Source ID:</label>
+            <input type="text" id="source_id"><br>
+
+            <label for="PCR_PID">PCR PID:</label>
+            <input type="text" id="PCR_PID"><br>
+
+            <h3>Components</h3>
+            <div id="components">
+                <div class="component">
+                    <label for="component_stream_type1">Stream Type 1:</label>
+                    <input type="text" id="component_stream_type1"><br>
+                    
+                    <label for="elementary_PID1">Elementary PID 1:</label>
+                    <input type="text" id="elementary_PID1"><br>
+                </div>
+                <div class="component">
+                    <label for="component_stream_type2">Stream Type 2:</label>
+                    <input type="text" id="component_stream_type2"><br>
+                    
+                    <label for="elementary_PID2">Elementary PID 2:</label>
+                    <input type="text" id="elementary_PID2"><br>
+                </div>
+            </div>
+
+<div class="xmltv_id">
+        <h2>XMLTV ID</h2>
+        <label for="xmltv_id">xmltv id</label>
+        <input type="text" id="xmltv_id"><br>
+
+    </div>
+
+
+		<div class="xmltv_settings">
+        <h2>XMLTV URL</h2>
+        <label for="xmltv_settings">http://yourxmltvurl</label>
+        <input type="text" id="xmltv_settings"><br>
+
+    </div>
+
+            <button id="cancel-btn" type="button">Cancel</button><button id="save-channel-btn" type="button">Save Channel</button>
+        </div>
+        <input type="text" id="new-channel-name" placeholder="New Channel Name">
+        <button id="add-channel-btn">Add Channel</button>
+    </div>
+
+    <div class="mgt-settings">
+        <h2>MGT Settings</h2>
+        <label for="MGT_version">MGT Version:</label>
+        <input type="number" id="MGT_version"><br>
+
+        <label for="MGT_protocol_version">Protocol Version:</label>
+        <input type="number" id="MGT_protocol_version"><br>
+
+        <div id="mgt-tables">
+            <div class="mgt-table">
+                <label for="table_type">Table Type:</label>
+                <input type="text" id="table_type"><br>
+
+                <label for="table_PID">Table PID:</label>
+                <input type="text" id="table_PID"><br>
+
+                <label for="table_version_number">Table Version Number:</label>
+                <input type="number" id="table_version_number"><br>
+
+                <label for="table_number_bytes">Table Number Bytes:</label>
+                <input type="number" id="table_number_bytes"><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="stt-settings">
+        <h2>STT Settings</h2>
+        <label for="STT_protocol_version">Protocol Version:</label>
+        <input type="number" id="STT_protocol_version"><br>
+
+        <label for="system_time">System Time:</label>
+        <input type="text" id="system_time"><br>
+
+        <label for="GPS_UTC_offset">GPS UTC Offset:</label>
+        <input type="number" id="GPS_UTC_offset"><br>
+
+        <label for="DS_status">DS Status:</label>
+        <input type="text" id="DS_status"><br>
+    </div>
+
+<div class="control_port">
+        <h2>Output Settings</h2>
+        <label for="control_port">Unique Control TCP Port</label>
+        <input type="text" id="control_port"><br>
+
+    </div>
+
+
+<div class="output-settings">
+        <h2>Output Settings</h2>
+        <label for="udp_address">UDP Adress and Port</label>
+        <input type="text" id="udp_address"><br>
+
+    </div>
+
+    <button id="cancel-config-btn">Cancel</button>
+
+    <button id="save-config-btn">Save Config</button>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/edit.js"></script>
+</body>
+</html>
